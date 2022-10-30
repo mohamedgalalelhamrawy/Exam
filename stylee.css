@@ -1,0 +1,608 @@
+aside {
+    width: 320px;
+    color: #f9f6f6;
+    position: fixed;
+    left: -260px;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    transition: .5s ease-in-out;
+    z-index: 999999999999;
+}
+
+aside a{
+text-decoration-line: none;
+color:#f9f6f6;
+}
+
+article a{
+    text-decoration-line: none;
+    color:#f9f6f6;
+}
+
+aside a:hover{
+    color: #f9f6f6;
+}
+
+article a:hover{
+    color: #f9f6f6;
+}
+
+aside.active {
+    left: 0;
+}
+
+article.active {
+    left: 0;
+}
+
+.noselasied {
+    background-color: black;
+
+}
+
+
+.footerr {
+    bottom: 38%;
+}
+
+.foot {
+    color: #999;
+}
+
+.fot {
+    color: #343a40;
+}
+
+.w-8 {
+    width: 23%;
+    background-color: white;
+}
+
+.w-60{
+    width: 65%;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.w-80 {
+    width: 80%;
+}
+
+
+.setting {
+    left: 15px;
+    top: 48%;
+}
+
+.setting2 {
+    left: 15px;
+    top: 48%;
+}
+
+.iconat {
+    bottom: 3%;
+    left: 20px;
+}
+
+#row img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+body {
+    background-color: black !important;
+}
+
+article {
+    width: 320px;
+    color: #f9f6f6;
+    position: fixed;
+    left: -260px;
+    top: 0;
+    display: flex;
+    height: 100vh;
+    transition: .5s ease-in-out;
+}
+
+.roww input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #343a40;
+    color: #FFf;
+    outline: 0;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.ininin input{
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    color: #FFf;
+    outline: 0;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(245, 242, 242, 0.35) 0px 5px 15px;
+}
+
+.containerr{
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 50px;
+}
+
+.containerr button{
+    background-color: transparent;
+    border: #860707 1px solid;
+    color: #860707;
+}
+
+.alert{
+    display: none;
+}
+
+/* area */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #000;
+}
+.category{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 20px;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.item i{
+    color:#e65a50ab;
+    font-size: 50px;
+}
+.item img{
+    width: 100%;
+}
+.item h3{
+    color: #FFF;
+}
+.item .content{
+    width: 100%;
+    background: rgba(215, 214, 214, 0.527);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -130%;
+    height: 100%;
+    transition: 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .content h3{
+    color: #000!important;
+}
+.item:hover .content{
+    bottom: 0%;
+}
+.recipe_flex .lista{
+    width: fit-content;
+}
+@media(max-width: 991px){
+    .category{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media(max-width: 576px){
+    .category{
+        grid-template-columns: 100%;
+    }
+}
+
+.category_item{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 80%;
+    margin: 100px auto;
+    grid-column-gap: 20px;
+    color: #FFF;
+}
+.category_item img{
+    width: 100%;
+}
+.category_item section{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.category_item p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category_item h2{
+    font-size: 26px;
+}
+.recipe{
+    margin: 20px 0px;
+}
+.recipe h3{
+    margin-bottom: 20px;
+}
+.recipe_flex{
+    display: flex;
+    align-items: center;
+}
+.recipe_flex li{
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    font-size: 14px;
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.category_item a{
+    display: inline-block;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: 0px;
+}
+
+.category_item a:first-child{
+    background: #28a745;
+}
+.category_item a:last-child{
+    background: #F70000;
+}
+
+@media(max-width: 991px){
+    .category_item{
+        grid-template-columns: 100%;
+    }
+}
+
+/* catagory */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #000;
+}
+.category{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 20px;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.item img{
+    width: 100%;
+}
+.item .content{
+    width: 100%;
+    background: rgba(215, 214, 214, 0.527);
+    color: #000;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -130%;
+    transition: .5s ease-in-out;
+}
+.content h3{
+    margin-bottom: 10px;
+}
+.item:hover .content{
+    bottom: 0%;
+}
+
+@media(max-width: 991px){
+    .category{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media(max-width: 576px){
+    .category{
+        grid-template-columns: 100%;
+    }
+}
+
+.category_item{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 80%;
+    margin: 100px auto;
+    grid-column-gap: 20px;
+    color: #FFF;
+}
+.category_item img{
+    width: 100%;
+}
+.category_item section{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.category_item p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category_item h2{
+    font-size: 26px;
+}
+.recipe{
+    margin: 20px 0px;
+}
+.recipe h3{
+    margin-bottom: 20px;
+}
+.recipe_flex{
+    display: flex;
+    align-items: center;
+}
+.recipe_flex li{
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    font-size: 14px;
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.category_item a{
+    display: inline-block;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: 0px;
+}
+
+.category_item a:first-child{
+    background: #28a745;
+}
+.category_item a:last-child{
+    background: #F70000;
+}
+
+@media(max-width: 991px){
+    .category_item{
+        grid-template-columns: 100%;
+    }
+}
+
+/* ingredients */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #000;
+}
+.category{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 20px;
+}
+.item{
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+    margin-bottom: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+.item i{
+    color:#9ee650ab;
+    font-size: 50px;
+}
+.item img{
+    width: 100%;
+}
+.item h3{
+    color: #FFF;
+    margin: 15px 0;
+}
+.item .content{
+    width: 100%;
+    background: rgba(215, 214, 214, 0.527);
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    bottom: -130%;
+    height: 100%;
+    transition: 1s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item .content h3{
+    color: #000!important;
+}
+.item:hover .content{
+    bottom: 0%;
+}
+.recipe_flex .lista{
+    width: fit-content;
+}
+@media(max-width: 991px){
+    .category{
+        grid-template-columns: 50% 50%;
+    }
+}
+@media(max-width: 576px){
+    .category{
+        grid-template-columns: 100%;
+    }
+}
+
+.category_item{
+    display: grid;
+    grid-template-columns: 49% 49%;
+    width: 80%;
+    margin: 100px auto;
+    grid-column-gap: 20px;
+    color: #FFF;
+}
+.category_item img{
+    width: 100%;
+}
+.category_item section{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.category_item p{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.category_item h2{
+    font-size: 26px;
+}
+.recipe{
+    margin: 20px 0px;
+}
+.recipe h3{
+    margin-bottom: 20px;
+}
+.recipe_flex{
+    display: flex;
+    align-items: center;
+}
+.recipe_flex li{
+    background: #d4edda;
+    color: #155724;
+    padding: 10px;
+    font-size: 14px;
+    width: 24%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.category_item a{
+    display: inline-block;
+    color: #FFF;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    outline: none;
+    border: 0px;
+}
+
+.category_item a:first-child{
+    background: #28a745;
+}
+.category_item a:last-child{
+    background: #F70000;
+}
+
+@media(max-width: 991px){
+    .category_item{
+        grid-template-columns: 100%;
+    }
+}
+
+
+
+.item p{
+    color: #FFF;
+}
+
+
+/* اما تضغط علي الصوره  */
+ 
+.ingredientrow2 {
+    z-index: 999999;
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: none;
+}
+.image{
+    cursor: pointer;
+}
+.ingredientrow2 .btn1 button{
+    background-color: #D4EDDA;
+    border-radius:10% ;
+    padding:7px 5px ;
+}
+
+.ingredientrow2 .source{
+background-color: #28a745;
+color: white;
+padding: 10px 7px;
+}
+
+.ingredientrow2 .youtube{
+background-color: red;
+color: white;
+padding: 10px 7px;
+} 
